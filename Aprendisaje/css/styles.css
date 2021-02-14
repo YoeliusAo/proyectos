@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300;1,500;1,900&family=Roboto:ital,wght@1,100;1,300;1,500;1,900&family=Lobster&display=swap');
+
+* {
+    margin: 6px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: Lobster;
+    font-size: 11em;
+}
+
+.navbar .menu {
+    grid-column: 3 / 7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #181818;
+    cursor: pointer;
+}
+
+.navbar .menu a:hover {
+      color: white; 
+}
+.navbar .menu_bar {
+   display: none;
+}
+
+.navbar .shoping {
+    grid-column: 8 / 9;
+}
+
+/*  Section Main */
+
+.hero{
+    height: 80vh;
+    background-image: linear-gradient(rgba(16, 16, 16, .8),rgba(16, 16, 16, .8)), url('../img/bg.jpg');
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.hero .info-content {
+    grid-column: 7 / 10;
+    grid-row: 2 / 7;
+    color: white;
+}
+
+.hero h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.hero p{
+    font-weight: 300;
+}
+
+.hero .btn{
+    font-size: 1em;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #EDCB54;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.hero .btn:hover{
+    background-color: #EDCB54;
+    color: black;
+    cursor: pointer;
+}
+
+/*  Section Footer */
+
+.footer{
+
+}

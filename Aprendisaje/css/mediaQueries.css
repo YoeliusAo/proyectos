@@ -1,0 +1,55 @@
+@media only screen and (max-width: 650px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  h1{
+    font-size: 5em;
+  }
+
+.navbar {
+  position: relative;
+}
+
+.navbar .shoping {
+    display: none;
+}
+
+.navbar .menu_bar {
+    display: block;
+    grid-column: 9 / 9;
+    font-size: 2em;
+    cursor: pointer;
+ }
+
+.navbar .menu {
+    position: absolute;
+    width: 105%;
+    height: 34vh;
+    display: grid;
+    align-items: center;
+    background-color: #edcc54ca;
+    margin-top: 44em;
+    transform: translateX(170%);
+    transition: all 1s;
+ }  
+
+  .navbar .menu-toggle {
+    transform: translateX(65%);
+  }
+
+  /*  Section Main */
+
+  .hero .info-content {
+    grid-column: 2 / 10;
+    grid-row: 5 / 8;
+  }
+}
+
+/*  Section Footer */
+
+.footer {
+    
+}
